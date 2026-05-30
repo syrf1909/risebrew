@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rise Brew | Premium Bottled Coffee</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    letter-spacing:3px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:1.2rem;
+    color:#ddd;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#c89b5d;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    margin:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#a87c42;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.title h2{
+    font-size:2.5rem;
+    color:#c89b5d;
+}
+
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1c1c1c;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#c89b5d;
+    margin-bottom:10px;
+}
+
+.why{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.box{
+    background:#1c1c1c;
+    padding:25px;
+    text-align:center;
+    border-radius:15px;
+}
+
+.testimonial{
+    text-align:center;
+}
+
+.testimonial p{
+    margin:20px auto;
+    max-width:600px;
+    color:#ddd;
+}
+
+.order{
+    text-align:center;
+    background:#1c1c1c;
+    border-radius:20px;
+}
+
+.order h2{
+    color:#c89b5d;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0a0a0a;
+    color:#999;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2.8rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <h1>RISE BREW</h1>
+        <p>Crafted To Refresh, Served Cold</p>
+
+        <a href="#produk" class="btn">Lihat Menu</a>
+        <a href="#order" class="btn">Order Sekarang</a>
+    </div>
+</header>
+
+<section>
+    <div class="title">
+        <h2>Tentang Kami</h2>
+    </div>
+
+    <div class="about">
+        <p>
+            Rise Brew menghadirkan minuman kopi dan matcha premium
+            dalam kemasan botol 250ml dengan cita rasa creamy,
+            segar, dan siap menemani aktivitas harian Anda.
+        </p>
+    </div>
+</section>
+
+<section id="produk">
+    <div class="title">
+        <h2>Produk Kami</h2>
+    </div>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>Butterscotch Coffee</h3>
+            <p>
+                Perpaduan kopi pilihan dan butterscotch creamy
+                dengan rasa manis yang lembut.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Matcha Latte</h3>
+            <p>
+                Matcha premium dengan susu creamy yang menyegarkan.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Butterscotch Matcha</h3>
+            <p>
+                Kombinasi unik matcha dan butterscotch yang creamy.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="title">
+        <h2>Kenapa Rise Brew?</h2>
+    </div>
+
+    <div class="why">
+        <div class="box">☕ Premium Taste</div>
+        <div class="box">🥛 Creamy & Smooth</div>
+        <div class="box">❄️ Served Cold</div>
+        <div class="box">🚚 Open PO Daily</div>
+    </div>
+</section>
+
+<section>
+    <div class="title">
+        <h2>Testimoni</h2>
+    </div>
+
+    <div class="testimonial">
+        <p>
+            ⭐⭐⭐⭐⭐ <br>
+            "Butterscotch Coffee-nya creamy banget dan bikin nagih!"
+        </p>
+
+        <p>
+            ⭐⭐⭐⭐⭐ <br>
+            "Matchanya lembut dan tidak terlalu manis."
+        </p>
+    </div>
+</section>
+
+<section id="order">
+    <div class="order">
+        <br><br>
+        <h2>OPEN PO SEKARANG</h2>
+
+        <p>Botol 250ml mulai dari Rp13.000</p>
+
+        <br>
+
+        <a href="https://wa.me/6281234567890" class="btn">
+            Pesan via WhatsApp
+        </a>
+
+        <br><br>
+    </div>
+</section>
+
+<footer>
+    © 2026 Rise Brew | Premium Bottled Coffee
+</footer>
+
+</body>
+</html>
